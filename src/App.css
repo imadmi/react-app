@@ -1,0 +1,30 @@
+.gradient {
+    background: radial-gradient(circle at center, rgb(255, 255, 255) 0%, rgb(234, 234, 234) 100%);
+  }
+
+.body{
+    height: 85vh;
+}
+
+.child-component {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    right: 0;
+    bottom: 10vh;
+    z-index: 0;
+  }
+
+.img{
+	-webkit-clip-path: polygon( 15% 0% ,100% 0%, 100% 100% , 0% 100%);
+	/* clip-path: polygon(100% 86% ,100% 0%,  100% 0%, 0% 100%); */
+}
+
+.label:hover {
+  transform: translateY(-2.5rem) translateX(-0.7rem);
+
+}
+
+.label {
+  transition: transform 0.2s ease-in-out;
+}
