@@ -17,7 +17,7 @@ export default function Navbar() {
         <div className="w-full block flex-grow lg:items-center lg:w-auto ">
           <div className=" text-sm lg:flex-grow">
           {/* <Link to="/game" className= "inline-block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">game</Link> */}
-          <Link to="/react-app/Contact" className= "inline-block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-4 text-lg hover:font-bold duration-100">
+          <Link to="/react-app/Contact" className= "inline-block mt-4 lg:inline-block lg:mt-0 text-white hover:text-gray-300 mr-2 text-lg hover:font-bold duration-100">
             Contact
           </Link>
           </div>

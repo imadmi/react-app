@@ -20,7 +20,7 @@ export default function About() {
         </div>
         <div className='hover:cursor-pointer row-span-1 justify-self-center lg:mr-40'>
         <Particle />
-        <Link to="/About" >
+        <Link to="/react-app/About" >
             <button className='lg:absolute w-60 hover:bg-emerald-700 ease-in duration-300 shadow-lg shadow-gray-800 row-span-1 bg-emerald-900 lg:p-6 p-4 text-white font-serif text-xl lg:text-2xl font-bold rounded-full'>
                 Start
             </button>
